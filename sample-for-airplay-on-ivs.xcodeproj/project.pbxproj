@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C30B8AE44947CAF92E76FFA /* Pods_sample_for_airplay_on_ivs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AD3197C00A12A118D5466C /* Pods_sample_for_airplay_on_ivs.framework */; };
+		8E7A14DA2C29B97200BEA738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A14D92C29B97200BEA738 /* AppDelegate.swift */; };
+		8E7A14DC2C29B97200BEA738 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A14DB2C29B97200BEA738 /* SceneDelegate.swift */; };
+		8E7A14DE2C29B97200BEA738 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A14DD2C29B97200BEA738 /* ViewController.swift */; };
+		8E7A14E12C29B97200BEA738 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8E7A14E02C29B97200BEA738 /* Base */; };
+		8E7A14E32C29B97300BEA738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7A14E22C29B97300BEA738 /* Assets.xcassets */; };
+		8E7A14E62C29B97300BEA738 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8E7A14E52C29B97300BEA738 /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0171D1DC45BB4D823C2D8035 /* Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests.debug.xcconfig"; path = "Target Support Files/Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests/Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10AD3197C00A12A118D5466C /* Pods_sample_for_airplay_on_ivs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_for_airplay_on_ivs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21840D04DBFA11BC1682497E /* Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests.release.xcconfig"; path = "Target Support Files/Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests/Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A2D21381ECD85689A39039E /* Pods-airplay-sample-for-amazon-ivsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airplay-sample-for-amazon-ivsTests.debug.xcconfig"; path = "Target Support Files/Pods-airplay-sample-for-amazon-ivsTests/Pods-airplay-sample-for-amazon-ivsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5464C83F8A137F9930F6D59B /* Pods-airplay-sample-for-amazon-ivs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airplay-sample-for-amazon-ivs.release.xcconfig"; path = "Target Support Files/Pods-airplay-sample-for-amazon-ivs/Pods-airplay-sample-for-amazon-ivs.release.xcconfig"; sourceTree = "<group>"; };
+		661C65F1D0070B0B7FC2A0CB /* Pods-airplay-sample-for-amazon-ivsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airplay-sample-for-amazon-ivsTests.release.xcconfig"; path = "Target Support Files/Pods-airplay-sample-for-amazon-ivsTests/Pods-airplay-sample-for-amazon-ivsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E7A14D62C29B97200BEA738 /* sample-for-airplay-on-ivs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-for-airplay-on-ivs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7A14D92C29B97200BEA738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E7A14DB2C29B97200BEA738 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E7A14DD2C29B97200BEA738 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E7A14E02C29B97200BEA738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E7A14E22C29B97300BEA738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7A14E52C29B97300BEA738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E7A14E72C29B97300BEA738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88CC58A3DDAA88A999298B7 /* Pods-sample-for-airplay-on-ivs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-for-airplay-on-ivs.release.xcconfig"; path = "Target Support Files/Pods-sample-for-airplay-on-ivs/Pods-sample-for-airplay-on-ivs.release.xcconfig"; sourceTree = "<group>"; };
+		B8414FA658137BD6D720FC8C /* Pods_airplay_sample_for_amazon_ivsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_airplay_sample_for_amazon_ivsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D484E0139CEF51D037DEC536 /* Pods_airplay_sample_for_amazon_ivs_airplay_sample_for_amazon_ivsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_airplay_sample_for_amazon_ivs_airplay_sample_for_amazon_ivsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9890CE982BF335B00DE271 /* Pods-sample-for-airplay-on-ivs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-for-airplay-on-ivs.debug.xcconfig"; path = "Target Support Files/Pods-sample-for-airplay-on-ivs/Pods-sample-for-airplay-on-ivs.debug.xcconfig"; sourceTree = "<group>"; };
+		E4F5B178616D0AB2ED8A4CD4 /* Pods-airplay-sample-for-amazon-ivs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airplay-sample-for-amazon-ivs.debug.xcconfig"; path = "Target Support Files/Pods-airplay-sample-for-amazon-ivs/Pods-airplay-sample-for-amazon-ivs.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7A14D32C29B97200BEA738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C30B8AE44947CAF92E76FFA /* Pods_sample_for_airplay_on_ivs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021363C1642C9BE330272C9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4F5B178616D0AB2ED8A4CD4 /* Pods-airplay-sample-for-amazon-ivs.debug.xcconfig */,
+				5464C83F8A137F9930F6D59B /* Pods-airplay-sample-for-amazon-ivs.release.xcconfig */,
+				0171D1DC45BB4D823C2D8035 /* Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests.debug.xcconfig */,
+				21840D04DBFA11BC1682497E /* Pods-airplay-sample-for-amazon-ivs-airplay-sample-for-amazon-ivsUITests.release.xcconfig */,
+				3A2D21381ECD85689A39039E /* Pods-airplay-sample-for-amazon-ivsTests.debug.xcconfig */,
+				661C65F1D0070B0B7FC2A0CB /* Pods-airplay-sample-for-amazon-ivsTests.release.xcconfig */,
+				DF9890CE982BF335B00DE271 /* Pods-sample-for-airplay-on-ivs.debug.xcconfig */,
+				A88CC58A3DDAA88A999298B7 /* Pods-sample-for-airplay-on-ivs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2CA3584E44A5F87393BE7054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D484E0139CEF51D037DEC536 /* Pods_airplay_sample_for_amazon_ivs_airplay_sample_for_amazon_ivsUITests.framework */,
+				B8414FA658137BD6D720FC8C /* Pods_airplay_sample_for_amazon_ivsTests.framework */,
+				10AD3197C00A12A118D5466C /* Pods_sample_for_airplay_on_ivs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E7A14CD2C29B97200BEA738 = {
+			isa = PBXGroup;
+			children = (
+				8E7A14D82C29B97200BEA738 /* sample-for-airplay-on-ivs */,
+				8E7A14D72C29B97200BEA738 /* Products */,
+				021363C1642C9BE330272C9E /* Pods */,
+				2CA3584E44A5F87393BE7054 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7A14D72C29B97200BEA738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A14D62C29B97200BEA738 /* sample-for-airplay-on-ivs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7A14D82C29B97200BEA738 /* sample-for-airplay-on-ivs */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A14D92C29B97200BEA738 /* AppDelegate.swift */,
+				8E7A14DB2C29B97200BEA738 /* SceneDelegate.swift */,
+				8E7A14DD2C29B97200BEA738 /* ViewController.swift */,
+				8E7A14DF2C29B97200BEA738 /* Main.storyboard */,
+				8E7A14E22C29B97300BEA738 /* Assets.xcassets */,
+				8E7A14E42C29B97300BEA738 /* LaunchScreen.storyboard */,
+				8E7A14E72C29B97300BEA738 /* Info.plist */,
+			);
+			path = "sample-for-airplay-on-ivs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7A14D52C29B97200BEA738 /* sample-for-airplay-on-ivs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7A15002C29B97300BEA738 /* Build configuration list for PBXNativeTarget "sample-for-airplay-on-ivs" */;
+			buildPhases = (
+				ED4C0D34CFD52D9F3A8D044D /* [CP] Check Pods Manifest.lock */,
+				8E7A14D22C29B97200BEA738 /* Sources */,
+				8E7A14D32C29B97200BEA738 /* Frameworks */,
+				8E7A14D42C29B97200BEA738 /* Resources */,
+				BBBD6319CA1247FD9C74052D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sample-for-airplay-on-ivs";
+			productName = "airplay-sample-for-amazon-ivs";
+			productReference = 8E7A14D62C29B97200BEA738 /* sample-for-airplay-on-ivs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7A14CE2C29B97200BEA738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8E7A14D52C29B97200BEA738 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 8E7A14D12C29B97200BEA738 /* Build configuration list for PBXProject "sample-for-airplay-on-ivs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E7A14CD2C29B97200BEA738;
+			productRefGroup = 8E7A14D72C29B97200BEA738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7A14D52C29B97200BEA738 /* sample-for-airplay-on-ivs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7A14D42C29B97200BEA738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7A14E32C29B97300BEA738 /* Assets.xcassets in Resources */,
+				8E7A14E62C29B97300BEA738 /* Base in Resources */,
+				8E7A14E12C29B97200BEA738 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BBBD6319CA1247FD9C74052D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sample-for-airplay-on-ivs/Pods-sample-for-airplay-on-ivs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sample-for-airplay-on-ivs/Pods-sample-for-airplay-on-ivs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sample-for-airplay-on-ivs/Pods-sample-for-airplay-on-ivs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4C0D34CFD52D9F3A8D044D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sample-for-airplay-on-ivs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7A14D22C29B97200BEA738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7A14DE2C29B97200BEA738 /* ViewController.swift in Sources */,
+				8E7A14DA2C29B97200BEA738 /* AppDelegate.swift in Sources */,
+				8E7A14DC2C29B97200BEA738 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E7A14DF2C29B97200BEA738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7A14E02C29B97200BEA738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E7A14E42C29B97300BEA738 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7A14E52C29B97300BEA738 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E7A14FE2C29B97300BEA738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E7A14FF2C29B97300BEA738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E7A15012C29B97300BEA738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9890CE982BF335B00DE271 /* Pods-sample-for-airplay-on-ivs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94324UXTV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sample-for-airplay-on-ivs/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Twitch.sample-for-airplay-on-ivs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E7A15022C29B97300BEA738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88CC58A3DDAA88A999298B7 /* Pods-sample-for-airplay-on-ivs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94324UXTV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sample-for-airplay-on-ivs/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Twitch.sample-for-airplay-on-ivs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7A14D12C29B97200BEA738 /* Build configuration list for PBXProject "sample-for-airplay-on-ivs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7A14FE2C29B97300BEA738 /* Debug */,
+				8E7A14FF2C29B97300BEA738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7A15002C29B97300BEA738 /* Build configuration list for PBXNativeTarget "sample-for-airplay-on-ivs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7A15012C29B97300BEA738 /* Debug */,
+				8E7A15022C29B97300BEA738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7A14CE2C29B97200BEA738 /* Project object */;
+}
