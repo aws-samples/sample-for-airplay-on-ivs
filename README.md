@@ -16,6 +16,12 @@ Discovery of Airplay devices is left to the iOS OS to decide and populate in the
    * For more information about these commands, see [Bundler](https://bundler.io/) and [CocoaPods](https://guides.cocoapods.org/using/getting-started.html).
 1. Open sample-for-airplay-on-ivs.xcworkspace.
 1. Airplay functionality in this sample requires a physical iOS device and will not work in simulators.
+1. If there are sandbox errors reported by Xcode during build:
+   - Select Pods from project selector in the workspace side bar
+   - Select AmazonIVSPlayer 
+   - Select Build Settings Tab
+   - Search for "Sandbox"
+   - Please ensure all sandbox related build settings are set to "NO" 
 
 ## Using the application
 
