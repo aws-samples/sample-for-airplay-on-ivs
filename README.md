@@ -26,7 +26,7 @@ Discovery of Airplay devices is left to the iOS OS to decide and populate in the
 ## Using the application
 
 - When the sample app is launched, IVS playback will automatically begin using the IVS Player SDK.
-- An Airplay button will appear at the top right corner.
+- An Airplay button will appear at the bottom of the screen.
 - Selecting this button will open the AVRoutePickerView, which will display all discovered Airplay devices by the OS.
 - Selecting an Airplay device will shift playback to that device by switching to AVPlayer. 
 - If the AVRoutePickerView is dismissed and Airplay is stopped, playback will continue on the IVS Player SDK.
