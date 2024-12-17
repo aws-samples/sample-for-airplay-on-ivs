@@ -1,4 +1,4 @@
-## Sample for Airplay on Amazon IVS Player iOS SDK
+# Sample for Airplay on Amazon IVS Player iOS SDK
 
 This repository contains a sample app which showcases how to do Apple Airplay with Amazon IVS Player SDK playback. 
 
